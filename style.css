@@ -1,0 +1,47 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+canvas {
+  background: black;
+  display: block;
+  margin: 0 auto;
+  border-style: solid;
+  border-color: green;
+}
+
+.centralizar{
+  position: absolute;
+  top:10%;
+  left:32.333333333%;
+}
+
+.b1{
+  position: absolute;
+  left: 20%;
+  top: 110%;
+  width: 80px;
+  height: 50px;
+}
+
+.b2{
+  position: absolute;
+  left: 60%;
+  top: 110%;
+  width: 80px;
+  height: 50px;
+}
+
+.fundo{
+  background-image: url("background.jpg");
+  background-repeat: no-repeat;
+  width: 100vh;
+  background-size: cover;
+}
+
+.texto1{
+  text-shadow: 2px 2px green;
+  text-align: center;
+  color: white;
+}
